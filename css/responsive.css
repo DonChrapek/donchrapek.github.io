@@ -1,0 +1,110 @@
+@media (max-width: 768px) {
+    
+    /* Header */
+    .header-right {
+        display: none;
+    }
+    .header-left {
+        padding: 25vh 15vw;
+    }
+    .darr {
+        display: none;
+    }
+    /* Header end */
+    
+    /* About */
+    .clients-header {
+        text-align: center;
+    }
+    
+    .clients-logos {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    
+    .client-brand {
+        width: 22%;
+        margin: 2em;
+    }
+    
+    .client-brand:nth-child(5), .client-brand:nth-child(6){
+        display: none; 
+    }
+    /* About end */
+    
+    
+    /* Contact */
+    .contact-container {
+        text-align: center;
+        margin-bottom: 3em;
+    }
+    
+    .contact-container:nth-child(3) {
+        text-align: center;
+    }
+    /* Contact end */
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    /* Header */
+    .header-right, .header-left {
+        width: 50%;
+    }
+    /* Header end */  
+    
+    /* About */
+    .clients-header {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .clients-logos {
+        text-align: center;
+    }
+    .client-brand {
+        width: 12%;
+    }  
+    
+    .about-section {
+        background: #e7eaed;  
+        text-align: center;
+        padding: 3em 0;
+    }
+    
+    .section-text-content {
+        padding: 0;
+    }
+    
+    .header-text {
+        padding: 0;
+    }
+    /* About end */
+    
+    /* Services */
+    .services-text-content {
+        text-align: center; 
+        padding-bottom: 3em;
+    }
+    /* Services end */
+    
+    /* Works */
+    .works-right-header {
+        text-align: center;
+        padding: 3em 0 0 0;
+    }
+    .works-right-contact {
+        padding-left: 25%;
+        padding-bottom: 3em;
+    }
+    .other-works {
+        display: block;
+        text-align: center;
+    }
+    /* Works end */
+    
+    /* Blog */
+    .blog-post:last-child {
+        display: none;
+    }
+    /* Blog end */
+}

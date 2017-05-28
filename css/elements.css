@@ -1,0 +1,36 @@
+.rectangle {
+    display: inline-block;
+    width: 3vw;
+    height: 5px;
+    border: 1px solid orange;
+    border-radius: 0.5ch;
+    background-color: orange;
+    margin: 30px 0;
+}
+
+.rounded-rectangle {
+    width: 10%;
+    height: 5px;
+    border: 1px solid white;
+    border-radius: 0.5ch;
+    background-color: #fff;
+    margin: 30px 0;
+}
+
+button {
+    padding: 2ch 3ch;
+    font-family: 'Dosis', sans-serif;
+}
+
+.button-grey {
+    background-color: #474747;
+    color: white;
+    border: 0;
+    margin-top: 2em;
+}
+
+.button-black {
+    background-color: #000;
+    color: white;
+    border: 0;
+}

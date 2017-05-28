@@ -1,0 +1,360 @@
+body, h1, h2, h3, h4, h5, .row, .container-fluid {
+    margin: 0;
+    position: relative;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dosis', sans-serif;
+}
+
+p {
+    line-height: 3.5ch;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    font-family: 'Dosis', sans-serif;
+}
+
+.darkest {
+    color: #363636;
+}
+
+.light {
+    color: #878796;
+}
+
+.standard-href {
+    color: orange;
+}
+
+.standard-href:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+/* Navbar */
+nav {
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    padding: 5ch 8vw 0 0; 
+    text-align: right;
+}
+
+nav ul a {
+    color: white;
+    font-size: 12px;
+    margin-left: 3ch;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+
+nav ul a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+.navbar-single-item {
+    list-style-type: none;
+    display: inline-block;
+}
+/* Navbar stop */
+
+
+/* Header */
+#header {
+    position: relative;
+}
+
+#header .row {
+    display: flex;
+}
+
+.header-left {
+    background-image: url('../img/bg/mask-left.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 25vh 0 25vh 15vw;
+    color: white;
+}
+
+.header-right {
+    background-image: url('../img/bg/header1.jpg');
+    background-color: rgb(39, 40, 46);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header-text {
+    padding-right: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.darr {
+    position: absolute;
+    z-index: 1;
+    bottom: 15px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+/* Header stop */
+
+/* About */
+#about {
+}
+
+.clients-slide {
+    padding: 1vh 15vw;
+}
+
+.clients-header {
+    height: 75px;
+    padding-left: 0;
+    transform: translateY(25%);
+}
+
+.clients-logos {
+    text-align: right;
+}
+
+.client-brand {
+    filter: grayscale(100%);
+    margin-left: 2vw;
+    width: 10%;
+}
+
+.client-brand:hover {
+    filter: grayscale(0%);
+}
+
+.about-section {
+    background-image: url('../img/bg/about.jpg');
+    background-position: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: 1px solid rgba(46,46,46,0.1);
+}
+
+.section-text-content {
+    padding: 15vh 10vw 15vh 0;
+}
+/* About end */
+
+/* Services */
+#services {
+    padding: 0 10vw;
+    position: relative;
+}
+
+.services-text-content {
+    padding-top: 15vh;
+}
+
+.service-cell {
+    margin: 0;
+    padding-top: 20vh;
+    height: 38vh;
+    border: 1px solid rgba(46,46,46,0.1);
+    margin-top: 0;
+    text-align: center;
+}
+
+figure {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+figure img {
+    margin-bottom: 3ch;
+}
+/* Services stop */
+
+/* Works */
+#works {
+    background-color: #28282e;
+}
+
+.works-header {
+    text-align: center;
+    padding: 15vh 25vw;
+}
+
+.works-header h2 {
+    color: White;
+}
+
+.works-left {
+    padding: 0;
+}
+
+.works-left img {
+    width: 90%;
+    margin: 0;
+}
+
+.works-right-header {
+    padding: 0 5vw 3ch 0;
+}
+
+.works-right-header h3 {
+    color: White;
+    margin-bottom: 2ch;
+}
+
+.works-right-contact {
+    border-top: 1px dashed #878796;
+    padding-top: 3ch;
+    font-family: 'Dosis', sans-serif;
+}
+
+.works-right-contact div {
+    display: inline-block;
+    width: 7em;
+}
+
+.other-works {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    padding: 10vh 10vw 3ch 10vw;
+    background-color: #222227;
+}
+
+.other-works-item {
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin: 2em;
+    padding: 5vh 0;
+    height: 220px;
+    background-color: #28282e;
+}
+
+.other-works-item img {
+    max-height: 30px;
+    width: auto;
+    margin: auto;
+}
+
+.works-button-container {
+    background-color: #222227;
+    text-align: center;
+    padding-bottom: 9vh;
+}
+
+/* Works end */
+
+/* Blog */
+#blog {
+    background-color: #fff;
+}
+
+.blog-header {
+    text-align: center;
+    padding: 15vh 25vw 10vh 25vw;
+}
+
+.spacer {
+    height: 250px;
+}
+
+.blog-posts-container {
+    text-align: center;
+    padding: 10px 10vw 12vh 10vw;
+    display: flex;
+}
+
+.blog-post {
+    display: inline-block;
+    height: auto;
+    margin: auto;
+}
+
+.img {
+    overflow: hidden;
+    padding-top: 1px;    
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.blog-post img {
+    overflow: auto;
+    display: inline-block;
+    width: 100%;
+}
+
+.blog-text {
+    text-align: left;
+}
+
+.blog-title {
+    font-weight: bold;
+}
+
+.blog-author {
+    font-size: 1em;
+    color: grey;
+}
+
+.blog-text p {
+    margin-bottom: 3em;
+}
+
+.blog-button-container {
+    text-align: center;
+    padding-bottom: 10vh;
+}
+
+.blog-button-container a {
+    font-weight: 600;
+}
+
+.blog-button-container a:hover {
+    text-decoration: none;
+    color: orange;
+}
+/* Blog end */
+
+/* Contact footer */
+#contact {
+    background-color: #e7eaed;
+    padding: 10vh 10vw;
+}
+
+.contact-container span, contact-container a {
+    font-size: 0.8em;
+}
+
+.contact-container:nth-child(2) {
+    text-align: center;
+}
+
+.contact-container:nth-child(3) {
+    text-align: right;
+}
+
+.contact-container h3 {
+    font-size: 1.7em;
+    margin-bottom: 12px;
+}
+
+.contact-container h4 {
+    font-size: 1em;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+/* Contact footer end */
