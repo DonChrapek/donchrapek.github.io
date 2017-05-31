@@ -266,6 +266,7 @@ figure img {
     opacity: 0;
     text-align: center;
     padding: 3ch;
+    transition: 0.3s;
 }
 
 .other-works-item-hover:hover {
